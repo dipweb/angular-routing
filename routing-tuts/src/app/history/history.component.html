@@ -1,0 +1,15 @@
+<h4>List of History Books</h4>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Quantity</th>
+    </tr>
+    <tr *ngFor="let book of historyBook">
+        <td>{{book.id}}</td>
+        <td>{{book.title}}</td>
+        <td>{{book.quantity}}</td>
+    </tr>
+
+</table>

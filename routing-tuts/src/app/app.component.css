@@ -1,0 +1,27 @@
+nav {
+    background-color: rgb(3, 101, 108);
+    padding: 10px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    padding: 5px 10px;
+}
+
+.active {
+
+    font-weight: 700;
+}
